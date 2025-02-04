@@ -1,0 +1,19 @@
+<template>
+
+    <div class="slds-card">
+        <div class="slds-form-element">
+            <label class="slds-form-element__label" for="text-input-id-47">
+              <abbr class="slds-required" title="required">* </abbr>Input Label</label>
+            <div class="slds-form-element__control">
+              <input type="text" id="text-input-id-47" placeholder="Placeholder text…" required="" class="slds-input" />
+            </div>
+        </div>
+        <div>
+            <button class="slds-button slds-button_brand" onclick={submitText}>Submit</button>
+        </div>
+        <div>
+            <p><lightning-formatted-text value={inputTextValue} ></lightning-formatted-text></p>
+        </div>
+    </div>
+    
+</template>
